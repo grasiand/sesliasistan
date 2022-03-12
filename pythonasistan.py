@@ -67,10 +67,6 @@ def response(voice):
        webbrowser.get().open(url)
        speak('Hoşgeldin')
 
-
-       pyautogui.press('enter')
-
-
     if 'kapan' in voice:
         speak('Görüşürüz ')
         pyautogui.hotkey('alt', 'f4')
